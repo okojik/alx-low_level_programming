@@ -9,32 +9,9 @@
 
 int add(int a, int b)
 {
-	int sum = a + b;
-	int result = 0;
+	int c;
 
-	if (sum < 0)
-	{
+	c = a + b;
 
-	_putchar('-');
-	sum = -sum;
-	}
-
-	if (sum == 0)
-	{
-
-	_putchar('0');
-	return (0);
-	}
-
-	while (sum > 0)
-	{
-
-	int digit = sum % 10;
-
-	_putchar(digit + '0');
-	sum /= 10;
-	}
-
-	return (result);
+	return (c);
 }
-
