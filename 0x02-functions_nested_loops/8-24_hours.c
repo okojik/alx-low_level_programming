@@ -6,22 +6,27 @@
  * Return: None.
  */
 
-void print_jack_bauer(void) 
+void print_jack_bauer(void)
 {
 	int hour, minute;
 
-	for (hour = 0; hour < 24; hour++) 
-	{
+	hour = 0;
 
-	for (minute = 0; minute < 60; minute++)
+	while (hour < 24)
 	{
+		minute = 0;
 
-	_putchar((hour / 10) + '0');
-	_putchar((hour % 10) + '0');
-	_putchar(':');
-	_putchar((minute / 10) + '0');
-	_putchar((minute % 10) + '0');
-	_putchar('\n');
-	}
+		while (minute < 60)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute / 10) + '0');
+			_putchar('\n');
+			minute++;
+		}
+		hour++;
 	}
 }
+
