@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - a function that prints a triangle, followed by a new line.
- * @size: the size of the triangle
+ * @size: The size of the triangle
  * 
  */
 
