@@ -5,11 +5,11 @@
  * @a: first integer
  * @b: second integer
  *
- * Return: multiplied number
+ * Return: Numbers to be multiplied
  */
 
 int mul(int a, int b)
 {
 	
-	return(a * b);
+	return (a * b);
 }
