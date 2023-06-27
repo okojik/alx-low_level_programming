@@ -42,5 +42,5 @@ int _atoi(char *s)
 	if (m == 0)
 		return (0);
 
-	return (num);
+	return (k);
 }
