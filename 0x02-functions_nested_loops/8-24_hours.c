@@ -8,25 +8,24 @@
 
 void print_jack_bauer(void)
 {
-	int hour, minute;
+	int i, j;
 
-	hour = 0;
+	i = 0;
 
-	while (hour < 24)
+	while (i < 24)
 	{
-		minute = 0;
-
-		while (minute < 60)
+		j = 0;
+		while (j < 60)
 		{
-			_putchar((hour / 10) + '0');
-			_putchar((hour % 10) + '0');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar((minute / 10) + '0');
-			_putchar((minute / 10) + '0');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 			_putchar('\n');
-			minute++;
+			j++;
 		}
-		hour++;
+		i++;
 	}
 }
 
